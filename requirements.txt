@@ -1,0 +1,8 @@
+Flask==2.0.3
+opencv-python
+numpy==1.21.2
+matplotlib==3.4.3
+Pillow==8.4.0
+ultralytics==8.0.24  # Adjust based on your YOLO version
+azure-identity==1.7.0
+azure-storage-blob==12.8.0
