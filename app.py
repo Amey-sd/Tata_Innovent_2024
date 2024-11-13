@@ -8,7 +8,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 from PIL import Image
 
-model1 = YOLO(r"/home/site/wwwroot/models/Yolov8/Medium/weights/best.pt")
+model1 = YOLO(r"/home/wwwroot/models/Yolov8/Medium/weights/best.pt")
 app = Flask(__name__)
 UPLOAD_FOLDER = 'static/uploads'
 PROCESSED_FOLDER = 'static/processed'
